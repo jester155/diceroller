@@ -13,7 +13,7 @@ while rollAgain == 'yes' or rollAgain == 'y':
 
     dice = int(input())
 
-    while dice < 2 and dice > 30:
+    while dice > 1 and dice < 31: #As it was before you had to choose a number less than 1 and greater than 31
         print('Please type a number between 2 and 30')
         dice = int(input())
 
